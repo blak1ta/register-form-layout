@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Form Styling</title>
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  <style>
+
+    body {
+      background-color: bisque;
+    }
+    
+    .container{
+      box-sizing: border-box;
+      display: block;
+      background-color: white;
+      max-width: 300px;
+      margin: auto;
+      margin-top: 25px;
+      padding: 5px 0px;
+      padding-left: 15px;
+      padding-right: 17px;
+      
+      font-family: poppins, sans-serif;
+      border-radius: 5px;
+    }  
+      
+    input {
+      width: 100%;
+      height: 25px;
+      border: 1px solid lightgray;
+      border-radius: 5px;
+      display: block;
+      margin: auto;
+    }
+
+
+    .label {
+      margin-bottom: 15px;
+    }
+
+    label{
+      color: #4D4D4D;
+    }
+
+    .header{
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .header p {
+      color: #1A1A1A;
+      font-style: italic;
+    }
+    
+    
+    .button a {
+      display: block;
+      background: #FF7D3F;
+      text-decoration: none;
+      width: 100%;
+      height: 25px;
+      border-radius: 5px;
+      color: white;
+      text-align: center;
+      font-size: 14px;
+      padding-top: 5px;
+      margin-bottom: 25px;
+      margin-top: 25px;
+    }
+      
+    .button a:hover {
+      background-color: #E8612D;
+    }
+
+    .conditions {
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .conditions a {
+      text-decoration: none;
+      color: #FF7D3F;
+    }
+
+    .conditions a:hover {
+      color: #E8612D;
+      text-decoration: underline;
+    }
+      
+  </style>
+
+</head>
+    
+<body>
+  
+  <div class="container">
+    <div class="header">
+      <h1>Register</h1>
+      <p>Create your awesome portfolio</p>
+    </div>
+    
+    <form action="proccess">
+      <div class="label">
+        <label for="first-name">First Name</label> 
+        <input type="text" name="first-name" id="first-name">
+      </div>
+    
+      <div class="label">
+        <label for="last-name">Last Name</label> 
+        <input type="text" name="last-name" id="last-name">
+      </div>
+
+      <div class="label">
+        <label for="email">Email</label> 
+        <input type="email" name="email" id="email">
+      </div>  
+
+      <div class="label">
+        <label for="password">Password</label> 
+        <input type="text" name="password" id="password">
+      </div>
+      
+      <div class="label">
+        <label for="confirm-password">Confirm Password</label> 
+        <input type="text" name="confirm-password" id="confirm-password">
+      </div>
+
+      <div class="button">
+        <a href="#">Submit</a>
+      </div>
+        
+      <div class="conditions">
+        <p>By clicking Submit button you agree with <a href="#">Terms & Conditions</a> 
+          and <a href="#">Privacy Policy</a></p>
+      </div>
+
+    </form>
+  </div>
+  
+</body>
+</html>
+    
+      
+      
+  
+        
+
+
+
+
+  
+
+
+
+
+  
